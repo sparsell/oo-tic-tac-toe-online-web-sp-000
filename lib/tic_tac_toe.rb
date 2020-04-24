@@ -34,7 +34,7 @@ class TicTacToe
   def position_taken?
     if @board == ""
       move(index, token)
-    else 
+    else
     end
   end
 
