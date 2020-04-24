@@ -88,7 +88,7 @@ def won?
   end
 
   def draw?
-    !(won?(@board)) && (full?(@board))
+    !(won?) && (full?)
   end
 
 
