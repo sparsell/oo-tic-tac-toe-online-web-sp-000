@@ -78,8 +78,14 @@ def won?
       return win_combo
     end
       false
+    end
   end
-end
+
+  def full?
+  @board.all? do |space_taken|
+    space_taken != " "
+    end
+  end
 
 
 
