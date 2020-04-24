@@ -111,6 +111,12 @@ def play
   until over?
     turn
   end
+
+  if won?(board)
+  puts "Congratulations #{winner(board)}!"
+elsif draw?(board)
+  puts "Cat's Game!"
+  end
 end
 
 
